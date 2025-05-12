@@ -11,7 +11,7 @@ public class Arr_Count_occurrences_of_each_element {
 			countMap.put(num, countMap.getOrDefault(num, 0)+1);
 		}
 		for(int key : countMap.keySet()) {
-			System.out.println(key + "-" + countMap.get(key)+", ");
+			System.out.print(key + "-" + countMap.get(key)+", ");
 		}
 		
 	}
